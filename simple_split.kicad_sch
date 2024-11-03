@@ -5649,7 +5649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18599b40-fa5c-4f1d-bdd1-4c5303ce9a4a")
-		(property "Reference" "COM_SELECT2"
+		(property "Reference" "ExtraButtonsSelect1"
 			(at 113.792 43.18 0)
 			(effects
 				(font
@@ -5704,7 +5704,7 @@
 		(instances
 			(project "simple_split"
 				(path "/5b940dc4-a4d4-48b9-851f-bc67a6e52b4f"
-					(reference "COM_SELECT2")
+					(reference "ExtraButtonsSelect1")
 					(unit 1)
 				)
 			)
@@ -6751,7 +6751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38a89549-f0d4-4dad-9a4e-eb75e9ea904f")
-		(property "Reference" "Extra_Function_Key"
+		(property "Reference" "Extra_Function_Key1"
 			(at 62.23 177.8 0)
 			(effects
 				(font
@@ -6809,7 +6809,7 @@
 		(instances
 			(project "simple_split"
 				(path "/5b940dc4-a4d4-48b9-851f-bc67a6e52b4f"
-					(reference "Extra_Function_Key")
+					(reference "Extra_Function_Key1")
 					(unit 1)
 				)
 			)
@@ -8380,6 +8380,70 @@
 			(project "simple_split"
 				(path "/5b940dc4-a4d4-48b9-851f-bc67a6e52b4f"
 					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 370.84 215.9 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61ccacb2-1e7f-45ac-b527-2d79ca82615c")
+		(property "Reference" "M10"
+			(at 373.38 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 373.38 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 370.84 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 370.84 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 370.84 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "simple_split"
+				(path "/5b940dc4-a4d4-48b9-851f-bc67a6e52b4f"
+					(reference "M10")
 					(unit 1)
 				)
 			)
@@ -11616,6 +11680,70 @@
 			(project "simple_split"
 				(path "/5b940dc4-a4d4-48b9-851f-bc67a6e52b4f"
 					(reference "S23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 388.62 210.82 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7e0226d-c35e-4196-be54-cb200c7a8e82")
+		(property "Reference" "M11"
+			(at 391.16 209.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 391.16 212.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 388.62 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 388.62 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 388.62 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "simple_split"
+				(path "/5b940dc4-a4d4-48b9-851f-bc67a6e52b4f"
+					(reference "M11")
 					(unit 1)
 				)
 			)
