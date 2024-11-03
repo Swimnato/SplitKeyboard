@@ -1,0 +1,113 @@
+units:
+
+  small_pad: 0.03U
+
+
+
+points:
+
+  tallkey:
+
+    height: keyh
+
+    padding: (keyh+1U)/2 + small_pad
+
+    shift: [0, (keyh-1U) / 2 + 0.5]
+
+    $params: [keyh]
+
+  zones:
+
+    matrix:
+
+      columns:
+
+        nums:
+
+          key.splay: -90
+
+        qwer:
+
+          rows.first:
+
+            $extends: points.tallkey
+
+            $args: [1.5U]
+
+        asdf:
+
+          rows.first:
+
+            $extends: points.tallkey
+
+            $args: [2U]
+
+        zxcv:
+
+          rows.first:
+
+            $extends: points.tallkey
+
+            $args: [2.5U]
+
+          rows.seventh:
+
+        functions:
+
+          rows:
+
+            first:
+
+              $extends: points.tallkey
+
+              $args: [2U]
+
+            second:
+
+              $extends: points.tallkey
+
+              $args: [1.5U]
+
+            third:
+
+            fourth:
+
+              $extends: points.tallkey
+
+              $args: [3U]
+
+            fifth.skip: true
+
+            sixth.skip: true
+
+            seventh.skip: true
+
+      rows:
+
+        first:
+
+        second:
+
+        third:
+
+        fourth:
+
+        fifth:
+
+        sixth:
+
+        seventh:
+
+pcbs:
+  simple_split:
+    footprints:
+      keys:
+        what: mx
+        where: true
+        params:
+          from: GND
+          to: "{{name}}"
+          reverse: true
+          keycaps: true
+      mcu:
+        what: promicro

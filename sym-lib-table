@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Arcade Cabinet Special Pieces")(type "KiCad")(uri "C:/Users/Administrator/OneDrive/Documents/Ki Cad/Arcade Cabinet/Arcade Cabinet/Arcade Cabinet Special Pieces.kicad_sym")(options "")(descr ""))
+  (lib (name "Misc Keyboard Parts")(type "KiCad")(uri "${KIPRJMOD}/Misc Keyboard Parts.kicad_sym")(options "")(descr ""))
+)
