@@ -41,6 +41,7 @@
       9,
       10,
       11,
+      12,
       13,
       14,
       15,
@@ -75,7 +76,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "simple_split.kicad_prl",
+    "filename": "simple_split_MX.kicad_prl",
     "version": 3
   },
   "project": {

@@ -3,14 +3,14 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.6"
+      "Version": "8.0.4"
     },
-    "CreationDate": "2024-11-03T15:23:54-07:00"
+    "CreationDate": "2024-11-08T15:02:22-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "simple_split",
-      "GUID": "73696d70-6c65-45f7-9370-6c69742e6b69",
+      "Name": "simple_split_MX",
+      "GUID": "73696d70-6c65-45f7-9370-6c69745f4d58",
       "Revision": "v1.0.0"
     },
     "Size": {
@@ -32,47 +32,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "simple_split-F_Cu.gbr",
+      "Path": "simple_split_MX-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "simple_split-B_Cu.gbr",
+      "Path": "simple_split_MX-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "simple_split-F_Paste.gbr",
+      "Path": "simple_split_MX-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "simple_split-B_Paste.gbr",
+      "Path": "simple_split_MX-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "simple_split-F_Silkscreen.gbr",
+      "Path": "simple_split_MX-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "simple_split-B_Silkscreen.gbr",
+      "Path": "simple_split_MX-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "simple_split-F_Mask.gbr",
+      "Path": "simple_split_MX-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "simple_split-B_Mask.gbr",
+      "Path": "simple_split_MX-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "simple_split-Edge_Cuts.gbr",
+      "Path": "simple_split_MX-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
