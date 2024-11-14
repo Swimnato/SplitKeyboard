@@ -1,4 +1,4 @@
-23772869705835136
+23784976167223101
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64650,6 +64650,55 @@ Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimpor
 Yellow 5381 Series LED
 0
 2
+2
+Misc Keyboard Parts
+Jack_3.5mm_CUI_SJ1-3533NG_Horizontal Reversable
+TRS 3.5mm, horizontal, through-hole, https://www.cui.com/product/resource/sj1-353xng.pdf
+TRS audio jack stereo horizontal
+0
+5
+3
+Misc Keyboard Parts
+Keyboard Icon
+
+
+0
+0
+0
+Misc Keyboard Parts
+Nice!NanoV2
+
+
+0
+26
+26
+Misc Keyboard Parts
+Screen
+
+
+0
+4
+4
+Misc Keyboard Parts
+Side Indicator - Improved
+SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open, labeled with numbers
+solder jumper open
+0
+5
+3
+Misc Keyboard Parts
+Side_Indicator
+
+
+0
+3
+3
+Misc Keyboard Parts
+reversable_diode
+
+
+0
+6
 2
 Module
 A20_OLINUXINO_LIME2
