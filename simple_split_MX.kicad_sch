@@ -1366,7 +1366,7 @@
 				(pin power_in line
 					(at -11.43 15.24 0)
 					(length 2.54)
-					(name "GND"
+					(name "Bat-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1672,7 +1672,7 @@
 				(pin power_in line
 					(at 11.43 12.7 180)
 					(length 2.54)
-					(name "Bat-"
+					(name "Vin"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2920,6 +2920,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 120.65) (xy 302.26 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f48d13a-7747-4b77-bacc-b40a42705798")
+	)
+	(wire
+		(pts
 			(xy 215.9 193.04) (xy 229.87 193.04)
 		)
 		(stroke
@@ -4019,6 +4029,17 @@
 		)
 		(uuid "026187e9-e513-454a-94d7-f3b2bf4e9863")
 	)
+	(label "Bat-"
+		(at 302.26 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05324346-4c23-4b2c-8a62-ba585dc4072b")
+	)
 	(label "SCL"
 		(at 287.02 158.75 90)
 		(fields_autoplaced yes)
@@ -4251,7 +4272,7 @@
 		(uuid "4d284d15-96ab-4789-a4af-a4a1f74a5a02")
 	)
 	(label "Bat-"
-		(at 351.79 57.15 0)
+		(at 351.79 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4271,6 +4292,17 @@
 			(justify left bottom)
 		)
 		(uuid "51310d00-1613-4069-ae52-3f0389167277")
+	)
+	(label "Bat+"
+		(at 351.79 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51c59206-0b06-44df-9459-2630fac9680b")
 	)
 	(label "2"
 		(at 353.06 85.09 0)
@@ -4481,6 +4513,17 @@
 		)
 		(uuid "9cd69d36-1617-4e36-be27-8b9b4e83f751")
 	)
+	(label "GND"
+		(at 306.07 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9eb77d57-5b70-4a0a-a55a-3269392e592a")
+	)
 	(label "Rotary_B"
 		(at 336.55 78.74 0)
 		(fields_autoplaced yes)
@@ -4493,7 +4536,7 @@
 		(uuid "a0721164-c81f-4bce-ae05-e6e0ed76d54d")
 	)
 	(label "Bat-"
-		(at 293.37 59.69 180)
+		(at 293.37 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4535,6 +4578,17 @@
 			(justify left bottom)
 		)
 		(uuid "ab14b72c-9b43-42c3-9a80-d08aa7c542d6")
+	)
+	(label "Bat+"
+		(at 293.37 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0685cd2-f29e-4f42-88d6-15a92ffa2b7a")
 	)
 	(label "1"
 		(at 240.03 93.98 0)
@@ -5343,7 +5397,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 173.99 143.51 0)
 		(unit 1)

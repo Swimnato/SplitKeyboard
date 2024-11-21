@@ -209,7 +209,7 @@
 			(pin power_in line
 				(at -11.43 15.24 0)
 				(length 2.54)
-				(name "GND"
+				(name "Bat-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -515,7 +515,7 @@
 			(pin power_in line
 				(at 11.43 12.7 180)
 				(length 2.54)
-				(name "Bat-"
+				(name "Vin"
 					(effects
 						(font
 							(size 1.27 1.27)
