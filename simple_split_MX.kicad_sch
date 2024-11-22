@@ -4381,6 +4381,17 @@
 		)
 		(uuid "6b507f99-6aab-45b3-81de-36a4e1e8df59")
 	)
+	(label "SDA"
+		(at 284.48 139.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "709631db-3485-493f-8174-1812638c178e")
+	)
 	(label "RXI"
 		(at 120.65 38.1 0)
 		(fields_autoplaced yes)
@@ -4447,6 +4458,17 @@
 		)
 		(uuid "881f9b7f-21bd-42ff-8f35-7cb393c212d4")
 	)
+	(label "VCC"
+		(at 274.32 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90ccfa97-46b7-4e9e-beec-337b646d2cf7")
+	)
 	(label "SCL"
 		(at 353.06 90.17 0)
 		(fields_autoplaced yes)
@@ -4490,6 +4512,17 @@
 			(justify left bottom)
 		)
 		(uuid "9702df1b-abd4-4c22-a0e6-5ba8b1bf1f21")
+	)
+	(label "VCC"
+		(at 284.48 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97a87395-95be-4ed2-8924-3481373d1d2b")
 	)
 	(label "4"
 		(at 240.03 179.07 0)
@@ -4831,6 +4864,17 @@
 			(justify right bottom)
 		)
 		(uuid "f848b17e-9335-4373-922d-b4b0efccf6b5")
+	)
+	(label "SCL"
+		(at 274.32 139.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f91c06ba-43a5-4a88-8d32-758389aaf7bb")
 	)
 	(label "D"
 		(at 307.34 81.28 270)
@@ -6375,6 +6419,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 274.32 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28db51db-8abd-406a-aee8-de54e9092ed4")
+		(property "Reference" "R4"
+			(at 276.86 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 276.86 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 272.542 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 274.32 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0dcda0a-dff4-4dc5-a031-8a9bd6706bdc")
+		)
+		(pin "2"
+			(uuid "c75f7da7-9e13-4308-b149-eb1c9b4b4ca1")
+		)
+		(instances
+			(project "simple_split_MX"
+				(path "/5b940dc4-a4d4-48b9-851f-bc67a6e52b4f"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 66.04 149.86 90)
 		(unit 1)
@@ -6457,6 +6571,76 @@
 			(project "simple_split"
 				(path "/5b940dc4-a4d4-48b9-851f-bc67a6e52b4f"
 					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 284.48 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32921bf7-9e78-44bb-be38-49837facff75")
+		(property "Reference" "R5"
+			(at 287.02 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 287.02 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 282.702 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 284.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 284.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9128282-6ccf-44ed-babb-374e3882aa2c")
+		)
+		(pin "2"
+			(uuid "03543e16-a254-48b4-b51f-b8c9ea8da8df")
+		)
+		(instances
+			(project "simple_split_MX"
+				(path "/5b940dc4-a4d4-48b9-851f-bc67a6e52b4f"
+					(reference "R5")
 					(unit 1)
 				)
 			)
