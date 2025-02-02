@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "5b940dc4-a4d4-48b9-851f-bc67a6e52b4f")
 	(paper "A3")
+	(title_block
+		(title "Split Mechanical Keybard")
+		(rev "13")
+		(company "Nathan Ford")
+	)
 	(lib_symbols
 		(symbol "Connector_Audio:AudioJack3"
 			(exclude_from_sim no)
@@ -4963,7 +4968,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 137.16 143.51 0)
 		(unit 1)
@@ -5126,7 +5130,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 191.77 86.36 0)
 		(unit 1)
@@ -5201,7 +5204,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 209.55 86.36 0)
 		(unit 1)
@@ -5346,7 +5348,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 173.99 143.51 0)
 		(unit 1)
@@ -5421,7 +5422,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 62.23 66.04 0)
 		(unit 1)
@@ -5566,7 +5566,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 173.99 200.66 0)
 		(unit 1)
@@ -6415,7 +6414,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 156.21 200.66 0)
 		(unit 1)
@@ -6490,7 +6488,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 62.23 81.28 0)
 		(unit 1)
@@ -6741,7 +6738,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 62.23 184.15 0)
 		(unit 1)
@@ -6816,7 +6812,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 191.77 115.57 0)
 		(unit 1)
@@ -7624,7 +7619,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 191.77 171.45 0)
 		(unit 1)
@@ -8009,7 +8003,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 227.33 218.44 0)
 		(unit 1)
@@ -8311,7 +8304,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 60.96 129.54 0)
 		(unit 1)
@@ -8512,7 +8504,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 119.38 86.36 0)
 		(unit 1)
@@ -8675,7 +8666,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 119.38 171.45 0)
 		(unit 1)
@@ -9279,7 +9269,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 173.99 171.45 0)
 		(unit 1)
@@ -9994,7 +9983,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 156.21 143.51 0)
 		(unit 1)
@@ -10289,7 +10277,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 156.21 115.57 0)
 		(unit 1)
@@ -10434,7 +10421,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 119.38 115.57 0)
 		(unit 1)
@@ -10597,7 +10583,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 227.33 143.51 0)
 		(unit 1)
@@ -10672,7 +10657,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 62.23 97.79 0)
 		(unit 1)
@@ -10747,7 +10731,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 119.38 143.51 0)
 		(unit 1)
@@ -10998,7 +10981,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 209.55 171.45 0)
 		(unit 1)
@@ -11073,7 +11055,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 137.16 115.57 0)
 		(unit 1)
@@ -11148,7 +11129,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 191.77 143.51 0)
 		(unit 1)
@@ -11223,7 +11203,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 227.33 171.45 0)
 		(unit 1)
@@ -11298,7 +11277,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 209.55 143.51 0)
 		(unit 1)
@@ -11373,7 +11351,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 207.01 217.17 0)
 		(unit 1)
@@ -11536,7 +11513,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 137.16 200.66 0)
 		(unit 1)
@@ -11611,7 +11587,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 137.16 171.45 0)
 		(unit 1)
@@ -11750,7 +11725,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 173.99 86.36 0)
 		(unit 1)
@@ -11895,7 +11869,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 60.96 114.3 0)
 		(unit 1)
@@ -11970,7 +11943,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 209.55 115.57 0)
 		(unit 1)
@@ -12765,7 +12737,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 156.21 86.36 0)
 		(unit 1)
@@ -12840,7 +12811,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 227.33 86.36 0)
 		(unit 1)
@@ -12978,7 +12948,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 227.33 115.57 0)
 		(unit 1)
@@ -13229,7 +13198,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 119.38 200.66 0)
 		(unit 1)
@@ -13304,7 +13272,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 60.96 146.05 0)
 		(unit 1)
@@ -13379,7 +13346,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 137.16 86.36 0)
 		(unit 1)
@@ -13822,7 +13788,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 173.99 115.57 0)
 		(unit 1)
@@ -13967,7 +13932,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(lib_id "Misc Keyboard Parts:SW_Kali_optional_reversable")
 		(at 156.21 171.45 0)
 		(unit 1)
